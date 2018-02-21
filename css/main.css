@@ -1,1 +1,37 @@
-ok
+img {
+	width: 100%;
+	height: auto;
+}
+
+.main-nav {
+	margin: 50px 0;
+	padding: 0;
+	text-align: center;
+}
+
+.main-nav li {
+	display: inline-block;
+	margin: 0 20px;
+}
+
+.logo {
+	margin-top: 50px;
+}
+
+.elibrary {
+	margin-top: 50px;
+	margin-bottom: 50px;
+	text-align: center;
+}
+
+a.button {
+	background-color: blue;
+	color: #fff;
+	padding: 20px;
+	transition: background-color ease .33s;
+}
+
+a.button:hover {
+	background-color: red;
+	text-decoration: none;
+}
